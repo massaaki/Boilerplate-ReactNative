@@ -52,3 +52,27 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 
 ```
 
+## 3. root import (to use ~ to define root path)
+```
+# Terminal
+
+yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
+
+Configure eslint, babel.config.js and creaet jsconfig.json
+```
+
+## 4. Add React navigation
+https://reactnavigation.org/docs/getting-started
+```
+yarn add @react-navigation/native
+
+yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npx pod-install ios
+
+import in index.js
+import 'react-native-gesture-handler';
+
+run react-native start-ios
+(to install dependences)
+```

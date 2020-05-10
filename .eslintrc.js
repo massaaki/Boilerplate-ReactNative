@@ -37,4 +37,11 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/react/require-default-props': 'off',
   },
+  settings: {
+    'import/resolver': {
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src',
+      },
+    },
+  },
 };
