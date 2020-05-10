@@ -4,6 +4,13 @@
 ```
 # Terminal
 1. navigate to PATH
+2. Change 'name' in package.json and 'name'/'displayName in app.json
+3. remove ios and android folder (/path_to_your_old_project/ios)
+4. init a new project react-native init project_name
+5. copy ios and android folder
+6. navigate to ios folder
+7. run pod install
+8. return to root path project
 2. run yarn
 3. run react-native run-ios
 
