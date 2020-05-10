@@ -3,6 +3,7 @@
 ## Install & run
 ```
 # Terminal
+0. Clone the repository (set project name)
 1. navigate to PATH
 2. Change 'name' in package.json and 'name'/'displayName in app.json
 3. remove ios and android folder (/path_to_your_old_project/ios)
