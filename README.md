@@ -12,8 +12,8 @@
 6. navigate to ios folder
 7. run pod install
 8. return to root path project
-2. run yarn
-3. run react-native run-ios
+9. run yarn
+10. run react-native run-ios
 
 or
 3. run react-native run-android
